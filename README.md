@@ -15,8 +15,8 @@ A personal project to understand my spending habits
 Link: 
 
 # Future features
-* add argparse
-* make it a CLI tool
+* ~~add argparse~~
+* ~~make it a CLI tool~~
 * apply it as a Telegram bot
 
 # Notes
