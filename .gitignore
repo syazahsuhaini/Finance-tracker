@@ -13,4 +13,4 @@ __init__.py
 
 dataio/
 
-scripts/data_path.py
+data_path.py
