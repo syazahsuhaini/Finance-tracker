@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import sys
 
-from operation import operation
-from data_path import chart_folder
+from scripts.operation import operation
+from scripts.data_path import chart_folder
 
 def visual(spending_chart, month, spent, income, category_rec):
     
@@ -36,6 +36,7 @@ def visual(spending_chart, month, spent, income, category_rec):
     
     return
 
+"""
 if __name__ == "__main__":
     if len(sys.argv) != 1:
         print("Usage: python visual.py")
@@ -43,3 +44,4 @@ if __name__ == "__main__":
 
     spending_chart, month, spent, income, category_rec = operation()
     visual(spending_chart, month, spent, income, category_rec)
+"""

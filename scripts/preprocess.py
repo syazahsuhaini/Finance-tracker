@@ -1,8 +1,8 @@
 import pandas as pd
 import sys
 
-from data_path import raw_data, processed_folder
-from dict import categories
+from scripts.data_path import raw_data, processed_folder
+from scripts.dict import categories
 
 def preprocess():
     # import data
@@ -53,9 +53,11 @@ def preprocess():
 
     return
 
+"""
 if __name__ == "__main__":
     if len(sys.argv) != 1:
         print("Usage: python preprocess.py")
         sys.exit(1)
         
     preprocess()
+"""

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from data_path import processed_data
+from scripts.data_path import processed_data
 
 
 def operation():
@@ -52,5 +52,7 @@ def operation():
 
     return spending_totals, month_name, total_spent, total_income, by_category_rec
 
+"""
 if __name__ == "__main__":
     operation()
+"""

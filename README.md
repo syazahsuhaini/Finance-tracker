@@ -7,9 +7,12 @@ A personal project to understand my spending habits
 
 # How to run it in terminal
 1. Change the terminal directory to where the script originated
-2. Run command python [script name]
-3. For preprocessing the data, run: python .\scripts\preprocess.py
-4. For visualisation of the data, run: python .\scripts\visual.py
+2. Run command python [script name];
+    - For preprocessing the data, run: python app.py --clean
+    - For visualisation of the data, run: python app.py --visual
+
+# Demo
+Link: 
 
 # Future features
 * add argparse
