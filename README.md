@@ -1,23 +1,25 @@
 # Finance-tracker
-A personal project to understand my spending habits
+A small semi-automation tool using Python to track my spending habits.
 
-# Current features
-* pre-process data
-* build a pie chart and save it as png
+## What this does and its current features ?
+This tool helps semi preprocess the transaction data then create and save the chart as png.
 
-# How to run it in terminal
-1. Change the terminal directory to where the script originated
-2. Run command python [script name];
-    - For preprocessing the data, run: python app.py --clean
-    - For visualisation of the data, run: python app.py --visual
+## How to run the script ?
+1. Open a terminal and navigate to the project directory
+2. For preprocessing the data, run:
+    ```bash
+    python app.py --clean
+3. For visualisation of the date, run:
+    ```bash
+    python app.py --visual
 
-# Demo
-Link: 
+## Demo
+Video demonstration: TBA 
 
-# Future features
-* ~~add argparse~~
-* ~~make it a CLI tool~~
-* apply it as a Telegram bot
+## Future improvement
+* ~~Add argument parsing for cleaner CLI usage~~
+* ~~Combine scripts into a single CLI tool~~
+* Apply it as a Telegram bot
 
-# Notes
+## Notes
 Link: https://colab.research.google.com/drive/1CaUcKcy-jvxf0ohpQn69vKenaoB8lXBS?usp=drive_link
